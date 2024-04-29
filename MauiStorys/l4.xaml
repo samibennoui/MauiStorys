@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiStorys.l4"
+             Title="الجزء الرابع">
+    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Spacing="-95" Margin="0"
+        VerticalOptions="FillAndExpand" BackgroundColor="Beige">
+        <Image Source="l8.png"  WidthRequest="200" HeightRequest="230" Margin="75" />
+        <Label 
+            Text="سلكت ليلى الطريق الذي دلها الذئب عليه، وكان طريقاً ملتوياً وشاقاً وبعيداً، أما هو فقد اختصر الطريق، وفي وقت قصير وصل إلى دار الجدة، فوقف على بعد أمتار من سياج الحديقة يمعن النظر في الحديقة الواسعة، المحيطة بالبيت، وقف طويلاً وهو يتفحص مداخل الدار، وفي هذه الآونة كانت الجدة في الحديقة، من الجهة الخلفية للدار، تقلم أغصان شجرة الورد، وكم زادت فرحته وانفتحت شهيته لما رأى الجدة متقدمة في السن، وبرغم قامتها الفارعة وجسمها البدين، تأكد من ضعف مقاومتها وعدم القدرة على الدفاع عن نفسها وعن ليلى أثناء هجومه عليهما. أما الجدة التي ظنها الذئب منهمكة في العمل ولم تنتبه إليه، فكانت حذرة، تراقبه عن كثب وتتظاهر كأنها لم تر شيئاً. ولما تأكد الذئب من عدم التفاتة الجدة إليه تأهب للدخول، فاستعد لمغامرته. تسلل الذئب إلى الدار، وجد ثيابها معلقة على المشجب فلبس جبتها، ذات الأكمام الطويلة، ولف خمارها حول رأسه، ووضع نظارتها على عينيه، ثم تمدد على السرير وتغطى بلحاف، ظاناً أن الجدة مشغولة في حديقتها، ولا تدخل الدار إلا بعد حين، وبقي ينتظر قدوم ليلى الفريسة الأولى."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+              FontSize="Body"
+             CharacterSpacing="0"
+            Margin="15"/>
+        <Button Text="التالي"  Margin="-200,85,0,0" WidthRequest="140"   Clicked="Button_Clicked"/>
+        <Button x:Name="btnMnu" Text="القائمة الرئيسية" WidthRequest="150" HeightRequest="39" Margin="200,55,0,0" Clicked="btnMnu_Clicked"/>
+
+        <StackLayout Spacing="2" Margin="0">
+           
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>

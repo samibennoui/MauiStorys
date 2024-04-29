@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiStorys.as3"
+             Title="الجزأ الثاني">
+    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Spacing="-80" Margin="0"
+        VerticalOptions="FillAndExpand" BackgroundColor="Beige">
+        
+        <Image Source="as3.png" WidthRequest="300" HeightRequest="300" Margin="80"/>
+        <Label 
+            
+            Text="فِي بِدَايَةِ المُسَابَقَةِ قَفَزَ الأَرْنَبُ المَغْرُورُ بِسُرْعَةٍ كَبِيرَةٍ، بَيْنَمَا بَدَأَتِ السُّلْحُفَاةُ النَّشِيطَةُ فِي سَيْرِهَا المُعْتَادِ خَلْفَ الأَرْنَبِ   
+    رَأَى الأَرْنَبُ المَغْرُورُ أَنَّهُ قَدْ قَطَعَ مَسَافَةً كَبِيرَةً فِي السِّبَاقِ، وَمَا تَزَالُ السُّلْحُفَاةُ تَسِيرُ بِبُطْئ، فَجَلَسَ تَحْتَ شَجَرَةٍ يَأْكُلُ جَزَرا
+أَكَلَ الأَرْنَبُ المَغْرُورُ الجَزَرَةَ فَنَامَ، بَيْنَمَا وَاصَلَتِ السُّلْحُفَاةُ النَّشِيطَةُ سَيْرَهَا فِي السِّبَاقِ فَلَحِقَتْ بِالأَرْنَبِ وَسَبَقَتْه                
+"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+             FontSize="Body"
+            WidthRequest="300" HeightRequest="400"
+            CharacterSpacing="02"/>
+        <Button Text="الجزأ الأخير"  WidthRequest="140" Margin="-200,28,0,0" Clicked="Button_Clicked"/>
+        <Button x:Name="btnMnu" Text="القائمة الرئيسية" WidthRequest="150" HeightRequest="39" Margin="200,40,0,0" Clicked="btnMnu_Clicked"/>
+    </StackLayout>
+</ContentPage>

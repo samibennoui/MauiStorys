@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiStorys.l3"
+             Title="الجزء الثالث">
+    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Spacing="-95" Margin="0"
+        VerticalOptions="FillAndExpand" BackgroundColor="Beige">
+        <Image Source="l3.png"  WidthRequest="300" HeightRequest="200" Margin="75" />
+        <Label 
+            Text="سمع ليلي ذئب كان بالجوار، فخرج من عرينه، ووقف مختفياً خلف جذع سميك لشجرة الصنوبر يتجسس عليها، فأسعده منظر طفلة وديعة بقبعة حمراء، وسط الغابة مسرورة غير مبالية، ابتسم ابتسامة عريضة، انفتحت شهيته وسال لعابه غزيراً، أخرج لسانه الأحمر الكبير فمسح به شفتيه خرج إليها وتقدم نحوها، صانعاً ابتسامة كبيرة على شفتيه، فبادرها بالتحية, صباح الخير يا صغيرتي يا صاحبة القبعة الحمراء الجميلة. إلى أين تنوين الذهاب؟ – ليلى: صباح الخير. وقالت وهي تشير بأصبعها إلى موقع بيت جدتها: أنا ذاهبة إلى هناك، وراء تلك التلال، لزيارة جدتي. استغرب الذئب أمرها، وبلهجة وديعة رد عليها: – لكن المسافة بعيدة يا صغيرتي. سأدلك على أقصر وأسهل طريق بدلاً من هذه المسالك الوعرة، لتصلي إلى جدتك في أقرب وقت. 
+            
+            
+            
+            
+            الذئب يحدث نفسه وهو مسرور: يا للصدفة الجميلة غذاء شهي لمدة أيام متتالية، ولكي أنفرد بهذه الوجبة الشهية، ولا يشاركني فيها  أحد، سأتركها تذهب وفي عقر دار الجدة أحتفل وأقيم مأدبة لم يسبق أن أقمت مثلها في حياتي سأجعل الطفلة ذات اللحم الطري للغداء. والجدة ستكون لي منها عدة وجبات لكبر حجمها وصلابة لحمها"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+             FontSize="Body"
+            CharacterSpacing="0"
+            Margin="15"/>
+            <Button Text="التالي" WidthRequest="140" Margin="-210,85,0,0" Clicked="Button_Clicked"/>
+            <Button x:Name="btnMnu" Text="القائمة الرئيسية" WidthRequest="150" HeightRequest="40"  Margin="200,55,0,0" Clicked="btnMnu_Clicked"/>
+       
+    </StackLayout>
+</ContentPage>

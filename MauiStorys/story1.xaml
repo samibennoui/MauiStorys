@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiStorys.story1"
+             Title="الارنب و  السلحفاة">
+    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Spacing="-80"
+        VerticalOptions="FillAndExpand" Margin="0" BackgroundColor="AntiqueWhite">
+         
+        <Image Source="as7.png" WidthRequest="300" HeightRequest="400" Margin="2"/>
+
+        <Label 
+            Text="قصة الأرنب والسلحفاة هي قصة أخلاقية خالدة، يرويها الآباء والأمهات لأطفالهم منذ مئات السنين، وتدور القصة حول سباق بين أرنب سريع وسلحفاة بطيئة، الأرنب مغرور بسرعته، ويعتقد أنه سيفوز بالسباق بسهولةأما السلحفاة، فهي، حكيمة ومثابرة، وتدرك أن لديها فرصة للفوز إذا استمرت في السير بثبات"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="Body"
+            WidthRequest="300" HeightRequest="400"
+            CharacterSpacing="02"
+            Margin="20"/>
+        
+        <Button Text="لنبدأ" WidthRequest="140" Margin="-200,55,0,0" Clicked="Button_Clicked"/>
+        <Button x:Name="btnMnu" Text="القائمة الرئيسية" WidthRequest="150" HeightRequest="39" Margin="200,40,0,0" Clicked="btnMnu_Clicked"/>
+    </StackLayout>
+</ContentPage>

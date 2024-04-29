@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiStorys.as4"
+             Title="الجزأ الأخير">
+    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Spacing="-90" Margin="0"
+        VerticalOptions="FillAndExpand" BackgroundColor="Beige">
+        <Image Source="as5.png" WidthRequest="300" HeightRequest="250" Margin="80"/>
+        <Label 
+            Text="اسْتَيْقَظَ الأَرْنَبُ مِنْ نَوْمِهِ مُتَأَخِّرًا، وَرَاحَ يَجْرِي وَيَقْفِزُ بِسُرْعَةٍ لِكَي يَصِلَ إِلَى نِهَايَةِ السِّبَاقِ، وَلَكِنَّهُ وَجَدَ السُّلَحْفَاةَ النَّشِيطَةَ قَدْ فَازَتْ بِالسِّبَاقِ."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="Body"
+            WidthRequest="300" HeightRequest="400"
+            CharacterSpacing="05"/>
+        <Image Source="as6.png" WidthRequest="300" HeightRequest="250" Margin="-220"/>
+       
+        <Button x:Name="btnMnu" Text="القائمة الرئيسية" WidthRequest="150" HeightRequest="39" Margin="200,350,200,0" Clicked="btnMnu_Clicked"/>
+    </StackLayout>
+</ContentPage>

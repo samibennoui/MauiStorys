@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiStorys.ld1"
+             Title="الجزء الأول">
+    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Spacing="-95" Margin="0"
+        VerticalOptions="FillAndExpand" BackgroundColor="Beige">
+        <Image Source="l1.png" WidthRequest="300" HeightRequest="200" Margin="75" />
+        <Label 
+            Text="في الصباح استيقظت ليلى مبكرة، والفرحة تملأ قلبها كأنها في يوم عيد، لبست ثيابها، وانتعلت حذاءها، وارتدت معطفها،  ووضعت قبعتها الحمراء على رأسها فهي لا تستغنى عنها أبدا لأنها هدية من جدتها في يوم عيد ميلادها، حتى صارت تعرف بصاحبةالقبعة الحمراء. قبل خروجها من البيت طبعت قبلة على جبين والديها، ضمتها أمها إلى صدرها، ثم قالت لها:  يا بنيتي أنت الآن كبرت وصرت   تعتمدين على نفسك وأنا أثق فيك، ولكن مع ذلك سأزودك بنصائح مهما كان سنك.  أبداً,أنصيتي إلي واصغي لما أقوله    إليك يا عزيزتي، أنت تعلمين أن بيت جدتك بعيد، والمسافة التي تفصل بيننا كلها أدغال وأحراش، كوني حذرة، إياك أن تتوغلي في الغابة، فهي غير آمنة، تسكنها الوحوش والحيوانات الضارة. خذي الطريق المحاذي  لها، فهو الطريق الذي تسلكه المشاة لأنه آمن وسهل، لا تكلمي الغرباء ولا تضيعي وقتك في اللعب واللهو، لأن الوقت يمر بسرعة، وفي المساء تزداد خطورة الطريق. كانت ليلى تصغي إلى كل ما تقوله أمها، ثم أجابتها:لا تخافي علي فأنا بنتك المطيعة سأعمل بوصيتك ولن أخالفها."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+              FontSize="Body"
+            WidthRequest="350" HeightRequest="500"
+           CharacterSpacing="0"
+           Margin="10"/>
+        <Button Text="التالي" WidthRequest="140" Margin="-200,45,0,0" Clicked="Button_Clicked_1"/>
+        <Button x:Name="btnMnu" Text="القائمة الرئيسية" WidthRequest="150" HeightRequest="39" Margin="200,55,0,0" Clicked="btnMnu_Clicked"/>
+    </StackLayout>
+</ContentPage>

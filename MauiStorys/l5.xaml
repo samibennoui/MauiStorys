@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiStorys.l5"
+             Title="الجزء الخامس">
+    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Spacing="-95" Margin="0"
+        VerticalOptions="FillAndExpand" BackgroundColor="Beige">
+        <Image Source="l7.png" WidthRequest="300" HeightRequest="280" Margin="75" />
+        <Label 
+            Text="ها هي ليلى وصلت وأنفاسها تكاد تتقطع من شدة العناء وما تعرضت إليه من مشقة الطريق. وجدت الباب الخارجي للدار مفتوحاً فتعجبت لأنه ليس من عادة الجدة ترك الباب مفتوحا، فاندفعت تجري وتبحث عن جدتها في الغرف، سمعت صوتا مبهما يناديها من الغرفة المجاورة، دفعت ليلى الباب ودخلت، فارتمت مباشرة على السرير باكية، وبصوت حزين تردد: – ما بك يا جدتي؟ لماذا أنت في الفراش؟ ليس من عادتك الاستلقاء على السرير. الذئب متكلف في صوته، مستعملا خشرجة: – أنا مريضة يا بنيتي. – ليلى: آه يا جدتي كم تغير صوتك وصار خشناً جداً؟ – الذئب: آه يا بنيتي! لقد تغير صوتي من المرض، يخرج الذئب من تحت اللحاف يديه ليضمها إليه، فتندهش ليلى لما رأته، ذراعين مكسوتين بالوبر، وأظافر طويلة فتسأل مستغربة: – ما هذا الشعر الكثيف على ذراعيك؟ وما هذه الأظافر الطويلة، يا جدتي؟ الذئب: يخرج زفرات ويتأوه قائلا:  إيه .. وآه يا بنيتي المرض عدو للجسم يفعل به ما يشاء."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+              FontSize="Body"
+            CharacterSpacing="0"
+           Margin="15"
+            HeightRequest="450"/>
+        <Button x:Name="btnsuivant" Text="الجزء الأخير" Margin="-200,10,0,0" WidthRequest="140" HeightRequest="40" Clicked="btnsuivant_Clicked" />
+        <Button x:Name="btnMenu" Text="القائمة الرئيسية" WidthRequest="150" HeightRequest="40"  Margin="200,55,0,0" Clicked="btnMenu_Clicked"/>
+
+    </StackLayout>
+</ContentPage>

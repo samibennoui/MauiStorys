@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiStorys.story2"
+             Title="ليلى و الذئب">
+    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Spacing="-80"
+        VerticalOptions="FillAndExpand" Margin="0" BackgroundColor="AntiqueWhite">
+        <Image Source="l6.png" WidthRequest="300" HeightRequest="300" Margin="40"/>
+        <Label 
+            Text="قصة ليلي والذئب من أشهر قصص الأطفال العالمية مليئة بالكلمات والصور وهي قصة جميلة للأطفال الصغار لكي تعلمهم ضرورة الاستماع إلى نصائح الام والأهل وعدم الثقة في الأعداء والغرباء."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+             FontSize="Body"
+            WidthRequest="300" HeightRequest="400"
+            CharacterSpacing="10"
+            Margin="20"/>
+        <Button Text="لنبدأ" WidthRequest="140" Margin="-200,55,0,0" Clicked="Button_Clicked"/>
+        <Button x:Name="btnMnu" Text="القائمة الرئيسية" WidthRequest="150" HeightRequest="39" Margin="200,40,0,0" Clicked="btnMnu_Clicked"/>
+    </StackLayout>
+</ContentPage>

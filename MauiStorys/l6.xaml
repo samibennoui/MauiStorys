@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiStorys.l6"
+             Title="الجزء الأخير">
+    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Spacing="-125" Margin="0"
+        VerticalOptions="FillAndExpand" BackgroundColor="Beige">
+        <Image Source="l4.png" WidthRequest="300" HeightRequest="280" Margin="75"/>
+        <Label 
+            Text="ترفع ليلى رأسها فتحدق في وجهه، وهي ما زالت في غفلتها، ولم تنتبه للحيلة، فتسأل مرة أخرى: – جدتي لقد تغيرت كثيرا، قد استطال فكك، وكبر فمك، وصارت لك أنياب حادة وأسنان كبيرة، ووجهك مكسو بالشعر؟ في هذه اللحظة كشر الذئب عن أنيابه وفتح فاه، قائلا: – لأبتلعك يا غبية يا بلهاء.
+            
+            ما أن تلفظ بالكلمة الأخيرة، حتى دخلت الجدة ومعها رجال بعصي، فهووا على الذئب ضرباً ورفساً وركلاً، إلى أن فاضت روحه وسقط جثة هامدة، ثم جروه جراً بين الصخور وألقوه في شعاب الغابة لتنهش الجوارح لحمه، ويكون عبرة لأمثاله.
+            وهكذا نجت ليلى بأعجوبة من أظفار وأنياب الذئب الماكر. هرعت إلى جدتها تبكي بدموع غزيرة، ممزوجة بدموع الفرح لنجاتها من الذئب الخبيث، وبلقاء جدتها العزيزة ضمتها جدتها إلى صدرها في حنو كبير، وقبلتها بقبلات حارة، ثم أجلستها في حجرها تداعبها وتحتضنها وتضمها إلى صدرها وتمسح شعرها الناعم. محاولة أن تهدئ من روعها حتى تسترجع أنفاسها وتعود إليها قوتها وحيويتها، وهي تردد من آونة لأخرى حمدا لك يا إلهي، لقد نال الماكر المحتال جزاءه وهذه هي عاقبة الغدار"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="Body"
+           CharacterSpacing="0"
+           Margin="15"/>
+        <Button Text="القائمة الرئيسية" WidthRequest="140" Margin="120"  Clicked="Button_Clicked_1"/>
+    </StackLayout>
+</ContentPage>
