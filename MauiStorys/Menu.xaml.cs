@@ -21,4 +21,14 @@ public partial class Menu : ContentPage
     {
         this.Navigation.PushAsync(new story3());
     }
+
+    private void btnvid1_Clicked(object sender, EventArgs e)
+    {
+        this.Navigation.PushAsync(new vd1());
+    }
+
+    private void btnvid2_Clicked(object sender, EventArgs e)
+    {
+        this.Navigation.PushAsync(new vid2());
+    }
 }

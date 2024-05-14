@@ -3,20 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiStorys.as2"
              Title="الجزء الأول">
-    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Spacing="-90" Margin="0"
-        VerticalOptions="FillAndExpand" BackgroundColor="Beige" >
-        <Image Source="as1.png" WidthRequest="300" HeightRequest="300" Margin="80"/>
+    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="Fill"
+         Margin="0,0,0,0" BackgroundColor="AntiqueWhite" >
+        <Image Source="as1.png" WidthRequest="300" HeightRequest="225" Margin="0,10,0,20"/>
         <Label 
             Text="
 فِي الغَابَةِ رَأَى الأَرْنَبُ المَغْرُورُ السُّلْحُفَاةَ، فَتَعَجَّبَ مِنْ مَشْيِهَا البَطِيءِ، فَهُوَ كَمَا نَعْرِفُ سَرِيعَ الحَرَكَةِ وَالجَرْي وَالقَفْزِ.
 قَالَتِ السُّلْحُفَاةُ لِلأَرْنَبِ المَغْرُورِ: أَنَا بَطِيئَةُ المَشْي وَلَكِنِّي نَشِيطَةٌ، وَأَسْتَطِيعُ إِنْهَاءَ كُلِّ أَعْمَالِي بِجِدٍّ وَنَشَاطٍ.. فَضَحِكَ الأَرْنَبُ مِنْ كَلَامِهَا.
 فَكَّرَ الأَرْنَبُ قَلِيلًا ثُمَّ قَالَ لِلسُّلَحْفَاةِ: هَيَّا نَقُومُ بِمُسَابَقَةٍ فِي الجَرْي حَتَّى تَعْرِفَ جَمِيعُ حَيَوَانَاتِ الغَابَةِ مِنْ مِنَّا الأَسْرِعُ وَالأَنْشَطُ، فَوَافَقَتِ السُّلْحُفَاةُ"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center"
-            FontSize="Body"
-            WidthRequest="300" HeightRequest="400"
-            CharacterSpacing="10"/>
-        <Button Text=" التالي"  WidthRequest="140" Margin="-200,50,0,0"  Clicked="Button_Clicked"/>
-        <Button x:Name="btnMnu" Text="القائمة الرئيسية" WidthRequest="150" HeightRequest="39" Margin="200,50,0,0" Clicked="btnMnu_Clicked"/>
+             VerticalOptions="Center" 
+ HorizontalOptions="Center"
+ FontSize="Body"
+ WidthRequest="300" HeightRequest="150"
+ CharacterSpacing="02"
+ Margin="0,0,0,120"/>
+        <Button Text=" التالي"  WidthRequest="150" Margin="40,0,0,0" HorizontalOptions="Start"  Clicked="Button_Clicked"/>
+        <Button x:Name="btnMnu" Text="القائمة الرئيسية" WidthRequest="150" Margin="230,-36,0,0" HorizontalOptions="Start" Clicked="btnMnu_Clicked"/>
     </StackLayout>
 </ContentPage>

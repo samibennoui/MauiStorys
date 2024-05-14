@@ -3,21 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiStorys.story1"
              Title="الارنب و  السلحفاة">
-    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Spacing="-80"
-        VerticalOptions="FillAndExpand" Margin="0" BackgroundColor="AntiqueWhite">
+    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="Fill"
+         Margin="0,0,0,0" BackgroundColor="AntiqueWhite">
          
-        <Image Source="as7.png" WidthRequest="300" HeightRequest="400" Margin="2"/>
+        <Image Source="as7.png" WidthRequest="300" HeightRequest="225" Margin="0,10,0,20" />
 
         <Label 
             Text="قصة الأرنب والسلحفاة هي قصة أخلاقية خالدة، يرويها الآباء والأمهات لأطفالهم منذ مئات السنين، وتدور القصة حول سباق بين أرنب سريع وسلحفاة بطيئة، الأرنب مغرور بسرعته، ويعتقد أنه سيفوز بالسباق بسهولةأما السلحفاة، فهي، حكيمة ومثابرة، وتدرك أن لديها فرصة للفوز إذا استمرت في السير بثبات"
             VerticalOptions="Center" 
             HorizontalOptions="Center"
             FontSize="Body"
-            WidthRequest="300" HeightRequest="400"
+            WidthRequest="300" HeightRequest="150"
             CharacterSpacing="02"
-            Margin="20"/>
-        
-        <Button Text="لنبدأ" WidthRequest="140" Margin="-200,55,0,0" Clicked="Button_Clicked"/>
-        <Button x:Name="btnMnu" Text="القائمة الرئيسية" WidthRequest="150" HeightRequest="39" Margin="200,40,0,0" Clicked="btnMnu_Clicked"/>
+            Margin="0,0,0,120"
+          />
+
+        <Button Text="لنبدأ" WidthRequest="150" Margin="40,0,0,0" HorizontalOptions="Start" Clicked="Button_Clicked" />
+        <Button x:Name="btnMnu" Text="القائمة الرئيسية" WidthRequest="150" Margin="230,-36,0,0" HorizontalOptions="Start" Clicked="btnMnu_Clicked" />
     </StackLayout>
 </ContentPage>

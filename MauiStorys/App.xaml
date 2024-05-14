@@ -6,10 +6,11 @@
              >
     <Application.Resources>
         <ResourceDictionary>
-            <Style TargetType="NavigationPage" ApplyToDerivedTypes="False">
-                <Setter Property="BackgroundColor" Value="Red"/>
-                <Setter Property="BarBackgroundColor" Value="Brown"/>
+            <Style TargetType="NavigationPage" ApplyToDerivedTypes="True">
+                <Setter Property="BackgroundColor" Value="Beige"/>
+                <Setter Property="BarBackgroundColor" Value="Aqua"/>
                 <Setter Property="BarTextColor" Value="Black"/>
+               
             </Style>
 
 

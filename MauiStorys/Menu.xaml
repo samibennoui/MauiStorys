@@ -2,15 +2,17 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiStorys.Menu"
-             Title="اقرا"
+             Title="Story"
              BackgroundImageSource="menu.jpg">
 
     <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Spacing="60"
         VerticalOptions="FillAndExpand" Margin="2,2,2,2" >
 
-        <Button  Text="الارنب و  السلحفاة" WidthRequest="200" Margin="-20,580,0,-60"  Clicked="Button_Clicked"/>
+        <Button  Text="الارنب و  السلحفاة" WidthRequest="200" Margin="-20,380,0,-60"  Clicked="Button_Clicked"/>
         <Button  Text="ليلى و الذئب" WidthRequest="200" Margin="-20,20,0,-36" Clicked="Button_Clicked_1"/>
         <Button Text=" النملة و الصرصور" WidthRequest="200" Margin="-20,0,0,-60"  Clicked="Button_Clicked_2"/>
+        <Button x:Name="btnvid1" Text="||>>" WidthRequest="60" Margin="250,-159,0,0" Clicked="btnvid1_Clicked"/>
+        <Button x:Name="btnvid2" Text="||>>" WidthRequest="60" Margin="250,-41,0,0" Clicked="btnvid2_Clicked"/>
 
     </StackLayout>
 </ContentPage>
